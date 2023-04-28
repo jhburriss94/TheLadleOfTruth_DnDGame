@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="695.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.the_ladle_of_truth.DDScene2Controller">
+   <children>
+      <ImageView fitHeight="460.0" fitWidth="695.0" layoutY="-57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Pick_Your_Character.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="190.0" layoutX="288.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Mage.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="190.0" layoutX="509.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Thief.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="190.0" layoutX="22.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Fighter.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fighterSelect" fitHeight="316.0" fitWidth="281.0" layoutX="22.0" layoutY="72.0" onMouseClicked="#fighterClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Characters/Fighter.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mageSelect" fitHeight="316.0" fitWidth="220.0" layoutX="258.0" layoutY="72.0" onMouseClicked="#mageClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Characters/Mage.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="thiefSelect" fitHeight="316.0" fitWidth="281.0" layoutX="464.0" layoutY="72.0" onMouseClicked="#thiefClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Characters/Thief.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
